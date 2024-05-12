@@ -44,7 +44,7 @@ class DBOpenHelper(context: Context) : SQLiteOpenHelper(
         onCreate(db)
     }
 
-    override fun onDowngrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
+    //override fun onDowngrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
         onUpgrade(db, oldVersion, newVersion)
     }
 
