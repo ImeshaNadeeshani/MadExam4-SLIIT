@@ -31,7 +31,7 @@ class UpdateNoteActivity : AppCompatActivity() {
         fabUpdate = findViewById(R.id.fab_update)
 
         val titleOld = intent.getStringExtra(COLUMN_NAME_TITLE)
-        val descriptionOld = intent.getStringExtra(COLUMN_NAME_DESCRIPTION)
+        //val descriptionOld = intent.getStringExtra(COLUMN_NAME_DESCRIPTION)
 
 
         if (!titleOld.isNullOrBlank()) {
