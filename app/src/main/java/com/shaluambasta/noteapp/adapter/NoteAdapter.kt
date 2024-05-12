@@ -21,9 +21,9 @@ class NoteAdapter(
     inner class NoteViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         //val textTitle: TextView = view.findViewById(R.id.text_title)
-       // val textDescription: TextView = view.findViewById(R.id.text_description)
-       // val btnEdit: MaterialButton = view.findViewById(R.id.btn_edit)
-        //val btnDelete: MaterialButton = view.findViewById(R.id.btn_delete)
+        //val textDescription: TextView = view.findViewById(R.id.text_description)
+        val btnEdit: MaterialButton = view.findViewById(R.id.btn_edit)
+        val btnDelete: MaterialButton = view.findViewById(R.id.btn_delete)
 
     }
 
