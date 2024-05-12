@@ -24,7 +24,7 @@ class UpdateNoteActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_update_note)
+        setContentView(R.layout.activity_update_note)
 
         etUpdatedTitle = findViewById(R.id.et_updated_title)
         etUpdatedDescription = findViewById(R.id.et_updated_description)
